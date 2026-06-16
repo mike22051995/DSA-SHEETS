@@ -1,0 +1,186 @@
+﻿Heap Runtime Summary - 2026-02-19 02:03:59
+Total executables found: 30
+
+===== RUNNING: 01_kth_largest_element.exe =====
+STATUS: SUCCESS
+Output 1: 5
+Output 2: 4
+Output 3: 7
+
+===== RUNNING: 02_top_k_frequent_elements.exe =====
+STATUS: SUCCESS
+Output 1: [1,2]
+Output 2: [1]
+Output 3: [4,6]
+
+===== RUNNING: 03_k_closest_points_to_origin.exe =====
+STATUS: SUCCESS
+Output 1: [[-2,2]]
+Output 2: [[-2,4],[3,3]]
+Output 3: [[1,0],[0,1]]
+
+===== RUNNING: 04_merge_k_sorted_arrays.exe =====
+STATUS: SUCCESS
+Output 1: [1,2,3,4,5,6,7,8,9]
+Output 2: [1,2,3,4,5,6]
+Output 3: [1,2,3,4,5,10]
+
+===== RUNNING: 05_find_median_from_data_stream.exe =====
+STATUS: SUCCESS
+Output 1: 1.5
+Output 2: 2
+Output 3: 3
+
+===== RUNNING: 06_last_stone_weight.exe =====
+STATUS: SUCCESS
+Output 1: 1
+Output 2: 1
+Output 3: 0
+
+===== RUNNING: 07_task_scheduler.exe =====
+STATUS: SUCCESS
+Output 1: 8
+Output 2: 6
+Output 3: 10
+
+===== RUNNING: 08_reorganize_string.exe =====
+STATUS: SUCCESS
+Output 1: aba
+Output 2: 
+Output 3: vovlv
+
+===== RUNNING: 09_meeting_rooms_ii.exe =====
+STATUS: SUCCESS
+Output 1: 2
+Output 2: 1
+Output 3: 3
+
+===== RUNNING: 10_connect_sticks.exe =====
+STATUS: SUCCESS
+Output 1: 14
+Output 2: 30
+Output 3: 0
+
+===== RUNNING: 11_kth_smallest_in_sorted_matrix.exe =====
+STATUS: SUCCESS
+Output 1: 13
+Output 2: -5
+Output 3: 1
+
+===== RUNNING: 12_find_k_pairs_smallest_sums.exe =====
+STATUS: SUCCESS
+Output 1: [[1,2],[1,4],[1,6]]
+Output 2: [[1,1],[1,1]]
+Output 3: [[1,3],[2,3]]
+
+===== RUNNING: 13_ipo_maximize_capital.exe =====
+STATUS: SUCCESS
+Output 1: 4
+Output 2: 6
+Output 3: 7
+
+===== RUNNING: 14_furthest_building_you_can_reach.exe =====
+STATUS: SUCCESS
+Output 1: 4
+Output 2: 7
+Output 3: 3
+
+===== RUNNING: 15_smallest_range_covering_k_lists.exe =====
+STATUS: SUCCESS
+Output 1: [20,24]
+Output 2: [1,1]
+Output 3: [1,3]
+
+===== RUNNING: 16_minimum_cost_to_hire_k_workers.exe =====
+STATUS: SUCCESS
+Output 1: 105.00
+Output 2: 30.67
+Output 3: 10.00
+
+===== RUNNING: 17_ugly_number_ii.exe =====
+STATUS: SUCCESS
+Output 1: 12
+Output 2: 1
+Output 3: 24
+
+===== RUNNING: 18_super_ugly_number.exe =====
+STATUS: SUCCESS
+Output 1: 32
+Output 2: 1
+Output 3: 9
+
+===== RUNNING: 19_sort_characters_by_frequency.exe =====
+STATUS: SUCCESS
+Output 1: eetr
+Output 2: cccaaa
+Output 3: bbaA
+
+===== RUNNING: 20_minimum_deviation_in_array.exe =====
+STATUS: SUCCESS
+Output 1: 1
+Output 2: 3
+Output 3: 3
+
+===== RUNNING: 21_remove_stones_to_minimize_total.exe =====
+STATUS: SUCCESS
+Output 1: 12
+Output 2: 12
+Output 3: 2
+
+===== RUNNING: 22_maximum_performance_of_team.exe =====
+STATUS: SUCCESS
+Output 1: 60
+Output 2: 68
+Output 3: 56
+
+===== RUNNING: 23_minimum_refueling_stops.exe =====
+STATUS: SUCCESS
+Output 1: 2
+Output 2: -1
+Output 3: 0
+
+===== RUNNING: 24_take_gifts_from_richest_pile.exe =====
+STATUS: SUCCESS
+Output 1: 29
+Output 2: 4
+Output 3: 2
+
+===== RUNNING: 25_total_cost_to_hire_k_workers.exe =====
+STATUS: SUCCESS
+Output 1: 11
+Output 2: 4
+Output 3: 7
+
+===== RUNNING: 26_maximum_subsequence_score.exe =====
+STATUS: SUCCESS
+Output 1: 12
+Output 2: 30
+Output 3: 168
+
+===== RUNNING: 27_kth_largest_element_in_stream.exe =====
+STATUS: SUCCESS
+Output 1: 4
+Output 2: 5
+Output 3: 5
+
+===== RUNNING: 28_seat_reservation_manager.exe =====
+STATUS: SUCCESS
+Output 1: 1
+Output 2: 2
+Output 3: 1
+
+===== RUNNING: 29_find_kth_largest_xor_coordinate_value.exe =====
+STATUS: SUCCESS
+Output 1: 7
+Output 2: 5
+Output 3: 4
+
+===== RUNNING: 30_maximum_product_after_k_increments.exe =====
+STATUS: SUCCESS
+Output 1: 20
+Output 2: 216
+Output 3: 8
+
+===== FINAL SUMMARY =====
+SUCCESS: 30
+FAILED: 0

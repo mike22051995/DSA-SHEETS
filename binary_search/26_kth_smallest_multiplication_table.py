@@ -1,0 +1,65 @@
+"""
+PROBLEM: Kth Smallest Number in Multiplication Table
+Difficulty: Hard
+Pattern: Binary Search on Value Range
+
+DESCRIPTION:
+Nearly everyone has used the Multiplication Table. The multiplication table of size m x n 
+is an integer matrix mat where mat[i][j] == i * j (1-indexed).
+Given three integers m, n, and k, return the kth smallest element in the m x n multiplication table.
+
+EXPLANATION:
+Binary search on value:
+- Min value = 1, Max value = m * n
+- For each mid, count how many numbers <= mid in table
+- Each row i has min(mid / i, n) numbers <= mid
+- Find smallest value with at least k numbers <= it
+
+Time Complexity: O(m * log(m * n))
+Space Complexity: O(1)
+
+INPUT-OUTPUT EXAMPLES:
+
+Example 1:
+Input: m = 3, n = 3, k = 5
+Output: 3
+Explanation: Table: [[1,2,3],[2,4,6],[3,6,9]], 5th smallest is 3
+
+Example 2:
+Input: m = 2, n = 3, k = 6
+Output: 6
+Explanation: Table: [[1,2,3],[2,4,6]], 6th smallest is 6
+
+Example 3:
+Input: m = 3, n = 3, k = 9
+Output: 9
+"""
+
+from typing import List, Optional
+
+
+def count_less_equal_table(m, n, x):
+    count = 0
+    for i in range(1, m + 1):
+        count += min(x // i, n)
+    return count
+
+
+class Solution:
+    def findKthNumber(self, m, n, k):
+        left = 1
+        right = m * n
+        while left < right:
+            mid = left + (right - left) // 2
+            if count_less_equal_table(m, n, mid) < k:
+                left = mid + 1
+            else:
+                right = mid
+        return left
+
+
+if __name__ == "__main__":
+    solution = Solution()
+    print(f"Test 1: {solution.findKthNumber(3, 3, 5)}")
+    print(f"Test 2: {solution.findKthNumber(2, 3, 6)}")
+    print(f"Test 3: {solution.findKthNumber(3, 3, 9)}")
